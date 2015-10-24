@@ -32,4 +32,9 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
+# example if it works
+
+example <- makeCacheMatrix( matrix(c(4,5,6,12,13,15), nrow = 3, ncol = 3) )
+cacheSolve(example )
+
 
